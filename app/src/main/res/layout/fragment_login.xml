@@ -18,7 +18,7 @@
         tools:context=".feature.login.ui.LoginFragment">
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/login_instagram_img"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="@dimen/margin_16_dp"
@@ -42,11 +42,12 @@
             android:layout_height="@dimen/margin_48_dp"
             android:layout_marginStart="@dimen/margin_20_dp"
             android:layout_marginEnd="@dimen/margin_20_dp"
+            android:inputType="text"
             android:layout_marginBottom="@dimen/margin_12_dp"
             android:background="@drawable/rounded_edittext"
             android:text="@{loginViewModel.userName}"
             app:layout_constraintBottom_toTopOf="@+id/login_password_edt"
-            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:layout_constraintTop_toBottomOf="@+id/login_instagram_img"
             tools:layout_editor_absoluteX="16dp" />
 
         <EditText
