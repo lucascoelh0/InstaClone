@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InstaClone</string>
+    <string name="continue_as">Continuar como %1$s</string>
+    <string name="no_account">Não tem uma conta? Cadastre-se</string>
+    <string name="forgot_login_data">Esqueceu seus dados de login? Obtenha ajuda para entrar.</string>
+    <string name="or">Ou</string>
+    <string name="enter">Entrar</string>
+</resources>
