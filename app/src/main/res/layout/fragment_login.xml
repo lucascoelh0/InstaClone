@@ -3,14 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <data>
-
-        <variable
-            name="loginViewModel"
-            type="com.example.instaclone.feature.login.viewmodel.LoginViewModel" />
-
-    </data>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -45,7 +37,6 @@
             android:inputType="text"
             android:layout_marginBottom="@dimen/margin_12_dp"
             android:background="@drawable/rounded_edittext"
-            android:text="@{loginViewModel.userName}"
             app:layout_constraintBottom_toTopOf="@+id/login_password_edt"
             app:layout_constraintTop_toBottomOf="@+id/login_instagram_img"
             tools:layout_editor_absoluteX="16dp" />
@@ -59,7 +50,6 @@
             android:layout_marginBottom="@dimen/margin_12_dp"
             android:background="@drawable/rounded_edittext"
             android:inputType="textPassword"
-            android:text="@{loginViewModel.password}"
             app:layout_constraintBottom_toTopOf="@+id/login_enter_btn"
             app:layout_constraintTop_toBottomOf="@+id/login_username_edt"
             tools:layout_editor_absoluteX="16dp" />
@@ -72,7 +62,6 @@
             android:layout_marginEnd="@dimen/margin_20_dp"
             android:layout_marginBottom="@dimen/margin_12_dp"
             android:background="@drawable/rounded_blue_button"
-            android:enabled="@{loginViewModel.loginEnabled}"
             android:text="@string/enter"
             android:textAllCaps="false"
             android:textColor="@color/white"
